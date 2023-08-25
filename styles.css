@@ -114,3 +114,12 @@ header h1 {
         opacity: 1;
     }
 }
+/* Contact information color */
+.contact-info {
+    color: white;
+}
+
+/* Footer text color */
+footer {
+    color: white;
+}
