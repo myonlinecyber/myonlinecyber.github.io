@@ -1,0 +1,83 @@
+/* Element Selector */
+h1 {
+    color: blue;
+}
+
+/* Class Selector */
+.button {
+    background-color: #FFC0CB;
+}
+
+/* ID Selector */
+#header {
+    font-size: 24px;
+}
+/* Change font size and color */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Make text bold */
+.bold-text {
+    font-weight: bold;
+}
+/* Set background color */
+.header {
+    background-color: #F4F4F4;
+}
+
+/* Add border to an element */
+.card {
+    border: 1px solid #999;
+}
+/* Set margins, padding, and borders */
+.container {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #CCC;
+}
+/* Position elements */
+.sidebar {
+    float: left;
+    width: 30%;
+}
+
+/* Center an element horizontally */
+.center-content {
+    margin: 0 auto;
+}
+/* Adjust styles for smaller screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/* Apply transitions on hover */
+.button {
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #FF5733;
+}
+
+/* Apply animations */
+@keyframes slide {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.slide-in {
+    animation: slide 1s ease-in-out;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+}
+
+h1 {
+    color: blue;
+}

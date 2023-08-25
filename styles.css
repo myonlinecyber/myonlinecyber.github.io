@@ -1,0 +1,83 @@
+/* Apply a custom font */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Change font size and color */
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+/* Set background color */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Change text color */
+nav a {
+    color: #555;
+}
+
+/* Style buttons */
+.button {
+    background-color: #FF5733;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+/* Add border and padding */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style images */
+img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Center content */
+.center-content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Create columns */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style links */
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Add hover effect */
+nav a:hover {
+    color: #FF5733;
+}
+.container {
+    width: 1000px;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
