@@ -114,3 +114,25 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* Navigation links color */
+nav a {
+    color: white;
+    /* Add any other styles you want */
+}
+
+/* Header text color and animation */
+header h1 {
+    color: white;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Keyframes for fading animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
