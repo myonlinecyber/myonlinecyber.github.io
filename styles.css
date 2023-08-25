@@ -8,6 +8,7 @@ h1 {
     font-size: 28px;
     color: #333;
 }
+
 /* Set background color */
 header {
     background-color: #333;
@@ -28,6 +29,7 @@ nav a {
     border: none;
     cursor: pointer;
 }
+
 /* Add border and padding */
 .card {
     border: 1px solid #ccc;
@@ -39,6 +41,7 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 /* Center content */
 .center-content {
     margin: 0 auto;
@@ -58,6 +61,7 @@ img {
     display: table;
     clear: both;
 }
+
 /* Style links */
 nav a {
     text-decoration: none;
@@ -69,18 +73,25 @@ nav a {
 nav a:hover {
     color: #FF5733;
 }
+
+/* Container width */
 .container {
     width: 1000px;
 }
+
+/* Responsive container width */
 @media (max-width: 600px) {
     .container {
         width: 100%;
     }
 }
+
+/* Responsive images */
 img {
     max-width: 100%;
     height: auto;
 }
+
 /* Update text color for the intro section */
 .intro-section h2,
 .intro-section p {
@@ -92,6 +103,7 @@ img {
 .contact-section p {
     color: white;
 }
+
 /* Navigation links color */
 nav a {
     color: white;
@@ -104,6 +116,15 @@ header h1 {
     font-weight: bold;
     animation: fadeIn 2s ease-in-out;
 }
-body {
+
+/* Slogan styling */
+.slogan {
+    color: white;
+    font-style: italic;
+}
+
+/* Contact and footer text color */
+.contact-info,
+footer {
     color: white;
 }
