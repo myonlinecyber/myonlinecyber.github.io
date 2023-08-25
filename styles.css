@@ -123,3 +123,7 @@ header h1 {
 footer {
     color: white;
 }
+/* Contact information color */
+.contact-info, footer {
+    color: white;
+}
