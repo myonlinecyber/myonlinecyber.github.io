@@ -1,6 +1,6 @@
 /* Element Selector */
 h1 {
-    color: blue;
+    color: white;
 }
 
 /* Class Selector */
@@ -73,11 +73,12 @@ p {
 .slide-in {
     animation: slide 1s ease-in-out;
 }
+/* Example CSS rule */
 body {
     font-family: Arial, sans-serif;
     background-color: #F4F4F4;
 }
 
 h1 {
-    color: blue;
+    color: white;
 }
