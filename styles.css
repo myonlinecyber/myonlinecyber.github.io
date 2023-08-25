@@ -81,3 +81,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* Update text color for the intro section */
+.intro-section h2,
+.intro-section p {
+    color: white;
+}
+
+/* Update text color for the contact section */
+.contact-section h2,
+.contact-section p {
+    color: white;
+}
