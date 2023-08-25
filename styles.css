@@ -8,7 +8,6 @@ h1 {
     font-size: 28px;
     color: #333;
 }
-
 /* Set background color */
 header {
     background-color: #333;
@@ -29,7 +28,6 @@ nav a {
     border: none;
     cursor: pointer;
 }
-
 /* Add border and padding */
 .card {
     border: 1px solid #ccc;
@@ -41,7 +39,6 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 /* Center content */
 .center-content {
     margin: 0 auto;
@@ -61,7 +58,6 @@ img {
     display: table;
     clear: both;
 }
-
 /* Style links */
 nav a {
     text-decoration: none;
@@ -73,62 +69,48 @@ nav a {
 nav a:hover {
     color: #FF5733;
 }
+/* Default styles */
+.card {
+    width: 100%;
+}
 
-/* Container width */
+/* Responsive styles for screens 600px and smaller */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+}
+/* Default styles */
+.card {
+    width: 100%;
+}
+
+/* Responsive styles for screens 600px and smaller */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Default styles for larger screens */
 .container {
     width: 1000px;
 }
 
-/* Responsive container width */
+/* Responsive styles for screens 600px and smaller */
 @media (max-width: 600px) {
     .container {
         width: 100%;
     }
 }
-
-/* Responsive images */
+/* Fluid images */
 img {
     max-width: 100%;
     height: auto;
-}
-
-/* Update text color for the intro section */
-.intro-section h2,
-.intro-section p {
-    color: white;
-}
-
-/* Update text color for the contact section */
-.contact-section h2,
-.contact-section p {
-    color: white;
-}
-
-/* Navigation links color */
-nav a {
-    color: white;
-    /* Add any other styles you want */
-}
-
-/* Header text color and animation */
-header h1 {
-    color: white;
-    font-weight: bold;
-    animation: fadeIn 2s ease-in-out;
-}
-
-/* Slogan styling */
-.slogan {
-    color: white;
-    font-style: italic;
-}
-
-/* Contact and footer text color */
-.contact-info,
-footer {
-    color: white;
-}
-
-footer p {
-    color: white;
 }
